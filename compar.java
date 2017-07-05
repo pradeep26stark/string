@@ -10,13 +10,17 @@ class Comparee
     {
       System.out.println(1);
     }
-    else
+    else if(n>0)
     {
       for(i=1;i<=n;i++)
       {
         fact=fact*i;
       }
       System.out.println(fact);
+    }
+    else
+    {
+      System.out.println("enter above 0");
     }
   }
 }
